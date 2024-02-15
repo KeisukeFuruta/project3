@@ -13,7 +13,7 @@ public class Main {
 
             System.out.println("名前を入力して下さい");
             String names = sc.next();
-            //名前がキーと一致すれば、値を返す
+            
             System.out.println(userMap.get(names));
             System.out.println(userMap.get(names).length());
 
