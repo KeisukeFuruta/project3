@@ -13,6 +13,12 @@ public class Main {
 
             System.out.println("名前を入力して下さい");
             String names = sc.next();
+
+            if(userMap.get(names) == null){
+                System.out.println("");
+            }else {
+                System.out.println(userMap.get(names));
+            }
             
             System.out.println(userMap.get(names));
             System.out.println(userMap.get(names).length());
